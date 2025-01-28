@@ -1,0 +1,9 @@
+logged in successfully
+book borrowed successfully
+book borrowed fail
+book returned fail
+book returned fail
+book returned successfully
+book borrowed successfully
+registered successfully
+logged in successfully

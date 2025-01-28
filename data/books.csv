@@ -1,0 +1,36 @@
+title,author,genre,year,copies,is_loaned,lendings,borrowed_books,waiting_list
+The Catcher in the Rye,J.D. Salinger,Fiction,1951,3,No,4,2,[]
+To Kill a Mockingbird,Harper Lee,Fiction,1960,2,Yes,4,2,"[{""email"": ""user1402@example.com"", ""phone"": ""2992514698""}, {""email"": ""a"", ""phone"": ""a""}]"
+1984,George Orwell,Dystopian,1949,5,Yes,6,5,"[{""email"": ""user1002@example.com"", ""phone"": ""9567635736""}]"
+The Great Gatsby,F. Scott Fitzgerald,Classic,1925,4,No,3,3,[]
+Pride and Prejudice,Jane Austen,Romance,1813,3,Yes,4,3,"[{""email"": ""user4878@example.com"", ""phone"": ""2163723621""}]"
+War and Peace,Leo Tolstoy,Historical Fiction,1869,2,No,2,1,[]
+Great Expectations,Charles Dickens,Classic,1861,3,No,2,0,[]
+Moby Dick,Herman Melville,Adventure,1851,1,No,13,0,[]
+Crime and Punishment,Fyodor Dostoevsky,Psychological Drama,1866,1,Yes,3,1,"[{""email"": ""user3613@example.com"", ""phone"": ""1006131569""}]"
+The Brothers Karamazov,Fyodor Dostoevsky,Philosophy,1880,3,No,8,0,[]
+The Divine Comedy,Dante Alighieri,Epic Poetry,1320,1,Yes,3,1,"[{""email"": ""user5679@example.com"", ""phone"": ""4468578614""}]"
+Jane Eyre,Charlotte Brontë,Gothic Fiction,1847,2,No,1,0,[]
+Wuthering Heights,Emily Brontë,Gothic Romance,1847,4,No,2,2,[]
+Anna Karenina,Leo Tolstoy,Fiction,1877,2,Yes,4,2,"[{""email"": ""user6279@example.com"", ""phone"": ""5944639596""}]"
+Madame Bovary,Gustave Flaubert,Realism,1857,3,No,2,2,[]
+The Iliad,Homer,Epic Poetry,-750,1,Yes,5,1,"[{""email"": ""user7898@example.com"", ""phone"": ""3237505380""}]"
+The Sound and the Fury,William Faulkner,Modernism,1929,2,No,1,1,[]
+Invisible Man,Ralph Ellison,Fiction,1952,1,Yes,7,1,"[{""email"": ""user7247@example.com"", ""phone"": ""4337500723""}]"
+Beloved,Toni Morrison,Historical Fiction,1987,3,Yes,5,3,"[{""email"": ""user5944@example.com"", ""phone"": ""2106239289""}]"
+Catch-22,Joseph Heller,Satire,1961,4,No,2,1,[]
+Slaughterhouse-Five,Kurt Vonnegut,Science Fiction,1969,2,Yes,4,2,"[{""email"": ""user5188@example.com"", ""phone"": ""3694920235""}]"
+Brave New World,Aldous Huxley,Dystopian,1932,5,No,3,2,[]
+Heart of Darkness,Joseph Conrad,Adventure,1899,3,Yes,4,3,"[{""email"": ""user2483@example.com"", ""phone"": ""8574751077""}]"
+The Grapes of Wrath,John Steinbeck,Fiction,1939,2,No,1,1,[]
+Of Mice and Men,John Steinbeck,Tragedy,1937,1,Yes,2,1,"[{""email"": ""user8692@example.com"", ""phone"": ""5772282016""}]"
+The Old Man and the Sea,Ernest Hemingway,Fiction,1952,3,No,2,1,[]
+The Hobbit,J.R.R. Tolkien,Fantasy,1937,4,Yes,5,4,"[{""email"": ""user5241@example.com"", ""phone"": ""8776645899""}]"
+The Lord of the Rings,J.R.R. Tolkien,Fantasy,1954,2,Yes,3,2,"[{""email"": ""user7630@example.com"", ""phone"": ""4010260317""}]"
+Harry Potter and the Philosopher's Stone,J.K. Rowling,Fantasy,1997,7,No,12,2,[]
+A Game of Thrones,George R.R. Martin,Fantasy,1996,5,Yes,18,5,"[{""email"": ""user4429@example.com"", ""phone"": ""6944853129""}]"
+The Name of the Wind,Patrick Rothfuss,Fantasy,2007,3,No,12,2,[]
+Mistborn: The Final Empire,Brandon Sanderson,Fantasy,2006,4,Yes,11,4,"[{""email"": ""user9779@example.com"", ""phone"": ""8392886307""}]"
+The Handmaid's Tale,Margaret Atwood,Dystopian,1985,3,No,2,1,[]
+The Odyssey,Homer,Epic Poetry,-800,2,Yes,4,2,"[{""email"": ""user6720@example.com"", ""phone"": ""2359644204""}]"
+The Quaker,Jonathan,Epic Poetry,2025,3,Yes,5,3,[]
