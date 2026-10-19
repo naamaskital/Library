@@ -1,8 +1,4 @@
-   # Library Management System - Object-Oriented Programming Project
-
-Note that we worked in PyCharm with the folder we opened being the closest folder to the main 
-—this setup ensures it runs properly.
-Otherwise, there may be issues with the imports.
+# Library Management System - Object-Oriented Programming Project
 
 This project is part of an Object-Oriented Programming (OOP) course, focusing on implementing design patterns and showcasing OOP principles.
 The system is designed exclusively for librarians and supports features such as book management, librarian registration, and more.
@@ -14,7 +10,7 @@ The system is designed exclusively for librarians and supports features such as 
 ### Main Components
 1. **Entities**:
    - `User`: Represents a generic user in the system.
-   - `Observer`: Interface for observer objects(inherits `Observer`) Represents a user with additional notification capabilities.
+   - `Observer`: Interface used by objects that receive notifications.
    - `Librarian` (inherits `User`): Represents a librarian.
    - `Book`: Represents a book in the library. Handles book details, waiting list management, and notifications for availability.
    - `BookIterator`: Provides an iterator for iterating through books.
@@ -106,8 +102,8 @@ The system is designed exclusively for librarians and supports features such as 
    - **Context**: Used for the librarian notification system.
    - **Implementation**:
      - `LibrarianManager` acts as the **Subject**.
-     - `User` acts as the **Observer**,Currently, the librarians inherit from the User class, and the librarians are essentially the **Observers**.
-     - Notifications are sent to librarians When copies are returned or added to a book with a waiting list, we automatically loan it out.
+     - Librarian objects receive notifications through the observer interface.
+     - The notification mechanism is associated with library updates and book availability.
 
 ### 2. Strategy Pattern
    - **Context**: Used for flexible book search functionality.
@@ -118,7 +114,7 @@ The system is designed exclusively for librarians and supports features such as 
 ### 3. Decorator Pattern
    - **Context**: Enhances methods with additional functionality.
    - **Implementation**:
-     - `@hash_password`: Encrypts passwords before storage or verification.
+     - `@hash_password`: Applies password hashing during registration or authentication.
      - `@requires_login`: Ensures certain methods can only be executed by logged-in librarians.
      - `@check_librarian`: Ensures only registered librarians can access certain GUI functions.
 
@@ -145,16 +141,14 @@ For future requirements, a Singleton pattern or a centralized resource managemen
 
 ## Instructions for Running the Project
 
-Note that we worked in PyCharm with the folder we opened being the closest folder to the main 
-—this setup ensures it runs properly.
-Otherwise, there may be issues with the imports.
+Open the repository root as the working directory when running the project, so local imports resolve consistently.
 
 ### Prerequisites
 1. Install Python 3.8 or higher.
 2. Install the required packages manually by running:
    ```bash
-   pip install numpy pandas
-   pip install numpy pandas bcrypt
+   python -m pip install numpy pandas bcrypt
+   ```
 
 ### Running the Project
 1. Run the main script to start the application:
